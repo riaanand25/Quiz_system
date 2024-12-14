@@ -78,23 +78,35 @@
 
     <section class="pg3">
         <div id="container3">
-            <h1>CodingQuiz</h1>
-            <div class="quebox">
-             
+            <div class="parent3">
+                <h1>CodingQuiz</h1>
+                <div id="timer">Time Left: <span>30s</span></div>
             </div>
-            <div class="optbox">
-
+            <div class="infobox">
+                <div id="questionBox" class="question_box"></div>
+                <div id="optionsBox" class="options">
+                 </div>
+                 <div class="que_btn">
+                    <button id="next">Next</button>
+                    <button id="quit_quiz">Quit</button>
+                 </div>
             </div>
-            <div class="que_btn">
-                <button id="next">Next</button>
-                <button id="quit_que">Quit</button>
-             </div>
-        </div>
+            <div id="result">
+                <h1>Well Done! You Answered All the Questions</h1>
+                <div class="resultbtn">
+                    <button>Get Result</button>
+                    <button>Play Again</button>
+                    <button>Quit</button>
+                </div>
+            </div>
+            </div>
     </section>
  
     
 
      
-    <script type="module" src="script.js"></script>
+    <script type="module" src="index.js"></script>
+    
+   
 </body>
 </html>

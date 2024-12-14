@@ -13,15 +13,33 @@
 }
 #container3 h1
 {
-    padding-left: 24%;
+    /* padding-left: 24%; */
     padding-top: 5%;
 }
-.quebox
+.infobox
 {
     width: 700px;
     height: 400px;
     margin: 40px auto;
-    background-color: #fff;
+    background-color: #eee7e7;
+    padding: 40px;
+}
+#result h1{
+  font-size: 25px;
+}
+.resultbtn
+{
+    margin-top: 40px;
+}
+#result
+{
+    width: 500px;
+    height: 300px;
+    margin: 40px auto;
+    background-color: #f7f4f4;
+    padding: 40px;
+    text-align: center;
+    color: #d41414;
 }
 .pg3{
     display: none;
@@ -33,10 +51,28 @@
  padding: 10px 40px;
  font-size: 20px;
 }
-#quit_que
+#quit_quiz
 {
  background-color: #e21010;
  color: #fff;
  padding: 10px 40px;
  font-size: 20px;
+}
+.parent3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#timer{
+    padding-top: 5%;
+}
+.que_btn
+{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+#result{
+    display: none;
 }
